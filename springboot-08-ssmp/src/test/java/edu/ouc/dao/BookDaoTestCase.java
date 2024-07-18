@@ -65,11 +65,11 @@ public class BookDaoTestCase {
     }
 
     @Test
-    void testGetBy2(){
-        String name = "1";
-        LambdaQueryWrapper<Book> lqw = new LambdaQueryWrapper<Book>();
-        //if(name != null) lqw.like(Book::getName,name);		//方式一：JAVA代码控制
-        lqw.like(name != null,Book::getName,name);				//方式二：API接口提供控制开关
+    void testGetBy2() {
+        String name = null;
+        LambdaQueryWrapper<Book> lqw = new LambdaQueryWrapper<>();
+        // if(name != null) lqw.like(Book::getName,name);		//方式一：JAVA代码控制
+        lqw.like(name != null, Book::getName, name);                // 方式二：API接口提供控制开关
         bookDao.selectList(lqw);
     }
 }
