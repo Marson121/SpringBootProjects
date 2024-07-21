@@ -1,0 +1,20 @@
+server:
+  port: 80
+
+logging:
+  group:
+    a: edu.ouc.controller
+    b: edu.ouc.service, edu.ouc.dao
+  level:
+    root: warn
+    a: debug
+    b: error
+
+#  ??????????????
+  logback:
+    rolling policy:
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+      max-file-size: 3KB
+#  ???????
+#  file:
+#    name: server.log
