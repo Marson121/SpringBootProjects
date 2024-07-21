@@ -1,0 +1,22 @@
+#spring:
+#  profiles:
+#    active: dev
+#    include: devDB, devMVC  # 加载顺序 devDB devMVC dev
+
+#spring:
+#  profiles:
+#    active: pro
+#    group:
+#      "dev": devDB, devMVC  # 加载顺序 dev devDB devMVC
+#      "pro": proDB, proMVC
+#      "test": testDB, testMVC
+
+
+#maven与springboot配置冲突时读取maven配置的环境
+spring:
+  profiles:
+    active: @profile.active@
+    group:
+      "dev": devDB, devMVC  # 加载顺序 dev devDB devMVC
+      "pro": proDB, proMVC
+      "test": testDB, testMVC

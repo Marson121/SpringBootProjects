@@ -9,12 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-05-mybatis" />
         <module name="springboot-03-yaml" />
+        <module name="springboot-09-config" />
+        <module name="springboot-10-profiles" />
         <module name="springboot-04-junit" />
         <module name="springboot-01-quickstart" />
         <module name="springboot-07-druid" />
         <module name="springboot-02-base_config" />
         <module name="springboot-08-ssmp" />
         <module name="springboot-06-mybatisplus" />
+        <module name="springboot-11-log" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +36,9 @@
       <module name="springboot-06-mybatisplus" options="-parameters" />
       <module name="springboot-07-druid" options="-parameters" />
       <module name="springboot-08-ssmp" options="-parameters" />
+      <module name="springboot-09-config" options="-parameters" />
+      <module name="springboot-10-profiles" options="-parameters" />
+      <module name="springboot-11-log" options="-parameters" />
     </option>
   </component>
 </project>

@@ -50,9 +50,30 @@ public class BookServiceTestCase {
         iBookService.removeById(52);
     }
 
+    /**
+     * MP预先定义的分页查询
+     */
     @Test
     void testGetByPage() {
         IPage<Book> page = new Page<Book>(2,5);
         iBookService.page(page);
+    }
+
+    /**
+     * 自定义的分页查询
+     */
+    @Test
+    void testGetPage() {
+        iBookService.getPage(1,3);
+    }
+
+    /**
+     * 自定义的分页查询2（带有条件）
+     */
+    @Test
+    void testGetPage2() {
+        Book book = new Book();
+        book.setName("Spring");
+        iBookService.getPage(2,3, book);
     }
 }
