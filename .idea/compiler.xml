@@ -7,17 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-05-mybatis" />
-        <module name="springboot-03-yaml" />
-        <module name="springboot-09-config" />
+        <module name="springboot-13-configuration2" />
         <module name="springboot-10-profiles" />
+        <module name="springboot-13-configuration3" />
         <module name="springboot-04-junit" />
-        <module name="springboot-01-quickstart" />
-        <module name="springboot-07-druid" />
+        <module name="springboot-14-test" />
         <module name="springboot-02-base_config" />
         <module name="springboot-08-ssmp" />
-        <module name="springboot-06-mybatisplus" />
         <module name="springboot-11-log" />
+        <module name="springboot-05-mybatis" />
+        <module name="springboot-03-yaml" />
+        <module name="springboot-13-configutation4" />
+        <module name="springboot-09-config" />
+        <module name="springboot-01-quickstart" />
+        <module name="springboot-07-druid" />
+        <module name="springboot-12-hot_deploy" />
+        <module name="springboot-13-configuration" />
+        <module name="springboot-06-mybatisplus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +45,12 @@
       <module name="springboot-09-config" options="-parameters" />
       <module name="springboot-10-profiles" options="-parameters" />
       <module name="springboot-11-log" options="-parameters" />
+      <module name="springboot-12-hot_deploy" options="-parameters" />
+      <module name="springboot-13-configuration" options="-parameters" />
+      <module name="springboot-13-configuration2" options="-parameters" />
+      <module name="springboot-13-configuration3" options="-parameters" />
+      <module name="springboot-13-configutation4" options="-parameters" />
+      <module name="springboot-14-test" options="-parameters" />
     </option>
   </component>
 </project>

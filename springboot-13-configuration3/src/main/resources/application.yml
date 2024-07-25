@@ -1,0 +1,9 @@
+servers:
+# 宽松绑定,自动忽略-和_,大写改为小写,所有的最终都会转化为ipaddress
+# ipAddress: 192.168.0.0
+ ip-address: 192.168.0.1  # 推荐
+# ip_address: 192.168.0.2
+# IPADDRESS: 192.168.0.3
+ port: 8080
+ timeout: -1
+

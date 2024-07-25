@@ -1,0 +1,10 @@
+servers:
+ ipAddress: 192.168.0.0
+ port: 8080
+ timeout: -1
+
+
+datasource:
+  driverClassName: com.mysql.jdbc.Driver666
+  username: marson
+  password: 123456
