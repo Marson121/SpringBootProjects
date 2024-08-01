@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatisplus-01-quickstart" />
+        <module name="springboot-15-sql2" />
         <module name="springboot-13-configuration2" />
         <module name="springboot-10-profiles" />
         <module name="springboot-13-configuration3" />
@@ -15,14 +17,18 @@
         <module name="springboot-02-base_config" />
         <module name="springboot-08-ssmp" />
         <module name="springboot-11-log" />
+        <module name="springboot-15-sql" />
         <module name="springboot-05-mybatis" />
         <module name="springboot-03-yaml" />
         <module name="springboot-13-configutation4" />
+        <module name="mybatisplus-03-service" />
         <module name="springboot-09-config" />
         <module name="springboot-01-quickstart" />
+        <module name="mybatisplus-02-wrapper" />
         <module name="springboot-07-druid" />
         <module name="springboot-12-hot_deploy" />
         <module name="springboot-13-configuration" />
+        <module name="springboot-15-sql3" />
         <module name="springboot-06-mybatisplus" />
       </profile>
     </annotationProcessing>
@@ -33,6 +39,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatisplus-01-quickstart" options="-parameters" />
+      <module name="mybatisplus-02-wrapper" options="-parameters" />
+      <module name="mybatisplus-03-service" options="-parameters" />
       <module name="springboot-01-quickstart" options="-parameters" />
       <module name="springboot-02-base_config" options="-parameters" />
       <module name="springboot-03-yaml" options="-parameters" />
@@ -51,6 +60,9 @@
       <module name="springboot-13-configuration3" options="-parameters" />
       <module name="springboot-13-configutation4" options="-parameters" />
       <module name="springboot-14-test" options="-parameters" />
+      <module name="springboot-15-sql" options="-parameters" />
+      <module name="springboot-15-sql2" options="-parameters" />
+      <module name="springboot-15-sql3" options="-parameters" />
     </option>
   </component>
 </project>

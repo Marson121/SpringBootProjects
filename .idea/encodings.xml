@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mybatisplus-01-quickstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus-02-wrapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus-03-quickstart_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus-03-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-01-quickstart/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-02-base_config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-03-yaml/src/main/java" charset="UTF-8" />
@@ -19,6 +23,9 @@
     <file url="file://$PROJECT_DIR$/springboot-13-configuration3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-13-configutation4/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-14-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-15-sql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-15-sql2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-15-sql3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quickstart/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quickstart/src/main/resources" charset="UTF-8" />
   </component>

@@ -23,10 +23,18 @@
         <option value="$PROJECT_DIR$/springboot-13-configuration3/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-13-configutation4/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-14-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-15-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-15-sql2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-15-sql3/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus-01-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus-02-wrapper/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus-03-quickstart_service/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus-03-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/mybatisplus-03-quickstart_service/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-quickstart/pom.xml" />
       </set>
     </option>

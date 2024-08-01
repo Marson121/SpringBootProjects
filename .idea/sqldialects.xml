@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/mybatisplus-02-wrapper/src/main/java/edu/ouc/dao/UserDao.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/mybatisplus-03-service/src/main/java/edu/ouc/dao/UserDao.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/springboot-05-mybatis/src/main/java/edu/ouc/dao/BookDao.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/springboot-07-druid/src/main/java/edu/ouc/dao/BookDao.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/springboot-15-sql2/src/test/java/edu/ouc/service/ServiceTest.java" dialect="GenericSQL" />
   </component>
 </project>
