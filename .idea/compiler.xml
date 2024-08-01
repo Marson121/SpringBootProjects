@@ -10,6 +10,7 @@
         <module name="mybatisplus-01-quickstart" />
         <module name="springboot-15-sql2" />
         <module name="springboot-13-configuration2" />
+        <module name="mybatisplus-04-Db" />
         <module name="springboot-10-profiles" />
         <module name="springboot-13-configuration3" />
         <module name="springboot-04-junit" />
@@ -42,6 +43,7 @@
       <module name="mybatisplus-01-quickstart" options="-parameters" />
       <module name="mybatisplus-02-wrapper" options="-parameters" />
       <module name="mybatisplus-03-service" options="-parameters" />
+      <module name="mybatisplus-04-Db" options="-parameters" />
       <module name="springboot-01-quickstart" options="-parameters" />
       <module name="springboot-02-base_config" options="-parameters" />
       <module name="springboot-03-yaml" options="-parameters" />

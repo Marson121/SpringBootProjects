@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/mybatisplus-02-wrapper/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisplus-03-quickstart_service/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisplus-03-service/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus-04-Db/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
